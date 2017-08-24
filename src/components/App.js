@@ -1,19 +1,15 @@
-import React, { Component } from 'react';
+/**
+ * Created by ansarimofid on 24/08/17.
+ */
+import React from 'react'
+import Main from './Main'
+import Header from './Header/Header'
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          {/*<img src={logo} className="App-logo" alt="logo" />*/}
-          <h2>Hello World</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
-}
+const App = () => (
+  <div>
+    <Header />
+    <Main />
+  </div>
+)
 
-export default App;
+export default App
