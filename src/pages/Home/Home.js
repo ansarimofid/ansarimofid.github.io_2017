@@ -2,6 +2,7 @@
  * Created by ansarimofid on 24/08/17.
  */
 import React from 'react'
+
 const Home = ()=>(
   <div className="uk-container uk-text-center">
     <h2>I'm from Home</h2>
