@@ -1,0 +1,26 @@
+.project-card .uk-card-title {
+    font-size: 1.25rem;
+}
+
+.project-card .tags {
+    text-transform: uppercase;
+}
+
+.project-card .tags span:not(:last-child):after {
+    content: " / ";
+}
+
+.project-card .uk-card {
+    box-shadow: none;
+}
+
+.project-card .uk-button-line {
+    background-color: transparent;
+    font-size: 16px;
+    border-bottom: 2px solid #FA8D99;
+    padding: 0;
+}
+
+.project-card a:hover {
+    color: black;
+}
