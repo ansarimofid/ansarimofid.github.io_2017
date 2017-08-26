@@ -1,5 +1,21 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.title-deco {
+  font-family: 'Redressed', cursive;
+}
+
+.color-primary {
+  color: #FA8D99 !important;
+}
+
+.gradient-text {
+  color: #FF8A80;
+  background-image: linear-gradient(-180deg, #FF8A80 0%, #F48FB1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
 }
