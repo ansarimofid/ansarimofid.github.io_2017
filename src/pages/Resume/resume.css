@@ -1,11 +1,10 @@
-
 .resume .title-deco {
     margin-bottom: 24px;
 }
 
-.core-skills-list .core-skill {
-    width: 84px;
-    height: 84px;
+.circle-text-container {
+    width: 80px;
+    height: 80px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -52,4 +51,16 @@
     background-color: #FA8D99;
     transform: rotate(45deg);
     margin-left: -4px;
+}
+
+.hobby-list .hobby-item {
+    width: 64px;
+    height: 64px;
+    border-color: #FA8D99;
+}
+
+@media (max-width: 639px) {
+    main .resume {
+        padding: 0 32px;
+    }
 }

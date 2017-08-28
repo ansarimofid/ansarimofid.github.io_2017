@@ -6,12 +6,13 @@ import React from 'react'
 import './resume.css'
 
 const Resume = () => (
-  <div className="uk-container resume uk-text-left uk-margin-large-top">
+  <div className="uk-container resume uk-text-left uk-margin-large-top uk-margin-large-bottom">
     <div is uk-grid>
-      <div className="uk-width-1-6@m"></div>
-      <div className="uk-width-2-3@m">
+      <div className="uk-width-1-6@s uk-width-1-6@m"></div>
+      <div className="uk-width-2-3@s uk-width-2-3@m">
         <h2 className="page-title uk-text-bold uk-text-uppercase color-grey-54">Resume</h2>
 
+        {/*About*/}
         <section className="about uk-margin-large-top">
           <h4 className="title-deco">About</h4>
           <p>Hi, I’m <span className="color-primary">Mofid Ansari</span>. I’m self-taught <span className="color-primary">UI Designer</span> and student from IIIT Vadodara. While creating websites I
@@ -19,17 +20,18 @@ const Resume = () => (
             exploring, learning and creating as much as I can to evolve as a better designer.</p>
         </section>
 
+        {/*Skills*/}
         <section className="skills uk-margin-large-top">
           <h4 className="title-deco">Skills</h4>
           <div is uk-grid>
             <div className="uk-width-1-2@m">
               <div className="h5 section-subtitle">Core Skills</div>
               <div className="core-skills-list uk-flex uk-flex-wrap uk-margin-small-top">
-                <div className="core-skill">Web Design</div>
-                <div className="core-skill">Photoshop</div>
-                <div className="core-skill">Sketch</div>
-                <div className="core-skill">Material Design</div>
-                <div className="core-skill">Html & CSS</div>
+                <div className="core-skill circle-text-container">Web Design</div>
+                <div className="core-skill circle-text-container">Photoshop</div>
+                <div className="core-skill circle-text-container">Sketch</div>
+                <div className="core-skill circle-text-container">Material Design</div>
+                <div className="core-skill circle-text-container">Html & CSS</div>
               </div>
             </div>
             <div className="uk-width-1-2@m">
@@ -52,6 +54,7 @@ const Resume = () => (
           </div>
         </section>
 
+        {/*Education*/}
         <section className="edu uk-margin-large-top">
           <h4 className="title-deco">Education</h4>
           <div className="edu-list">
@@ -88,6 +91,33 @@ const Resume = () => (
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/*Experience*/}
+        <section className="edu uk-margin-large-top">
+          <h4 className="title-deco">Experience</h4>
+          <div className="exp-list">
+
+            <div className="exp-item">
+              <div className="position text-medium">Web Developer</div>
+              <div className="inst-name text-size-14 color-grey-38">SECUREITLAB</div>
+              <div className="time text-size-14">May 2016 - Sep 2016</div>
+            </div>
+
+          </div>
+        </section>
+
+        {/*Experience*/}
+        <section className="edu uk-margin-large-top">
+          <h4 className="title-deco">Interest & Hobbies</h4>
+          <div className="hobby-list uk-flex uk-flex-wrap">
+
+            <div className="hobby-item circle-text-container">Music</div>
+            <div className="hobby-item circle-text-container">Books</div>
+            <div className="hobby-item circle-text-container">Anime</div>
+            <div className="hobby-item circle-text-container">Travel</div>
+
           </div>
         </section>
       </div>
