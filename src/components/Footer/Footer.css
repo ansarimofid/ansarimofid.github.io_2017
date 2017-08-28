@@ -5,6 +5,14 @@ footer .uk-navbar-nav li > a{
     /*color: white;*/
     border-radius: 50%;
     color: whitesmoke;
+    border:1px solid #FA8D99;
+    transition: all 0.3s;
+}
+
+footer .uk-navbar-nav li:hover > a, footer .uk-navbar-nav>li>a:focus {
+    background-color: white;
+    color: #FA8D99;
+    border-color: #FA8D99;
 }
 
 footer .uk-navbar-nav li:not(:last-child) {
@@ -12,5 +20,5 @@ footer .uk-navbar-nav li:not(:last-child) {
 }
 
 footer .uk-navbar-nav>li:hover>a,footer .uk-navbar-nav>li>a:focus {
-    color: white;
+    /*color: white;*/
 }

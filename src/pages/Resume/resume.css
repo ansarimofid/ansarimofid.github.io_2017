@@ -58,9 +58,3 @@
     height: 64px;
     border-color: #FA8D99;
 }
-
-@media (max-width: 639px) {
-    main .resume {
-        padding: 0 32px;
-    }
-}
