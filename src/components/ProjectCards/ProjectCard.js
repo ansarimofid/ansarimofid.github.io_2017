@@ -11,9 +11,10 @@ class ProjectCard extends Component {
     return (
       <div className="uk-width-1-2@s uk-width-1-3@m uk-margin-medium-top project-card">
         <div className="uk-card uk-card-default">
-          <div className="uk-card-media-top">
+          <a href={this.props.cardData.link} className="uk-card-media-top uk-overflow-hidden"  target="blank">
             <img src={this.props.cardData.thumb} alt=""/>
-          </div>
+            <div className="img-overlay"></div>
+          </a>
           <div className="uk-card-body">
             <h3 className="uk-card-title uk-text-bold">{this.props.cardData.title}</h3>
             <div className="tags">

@@ -20,8 +20,29 @@
     font-size: 16px;
     border-bottom: 2px solid #FA8D99;
     padding: 0;
+    transition: all 0.3s;
+}
+
+.project-card .uk-button-line:hover {
+    color: #FA8D99;
 }
 
 .project-card a:hover {
     color: black;
+}
+
+.project-card .uk-card >a {
+    display: block;
+    position: relative;
+}
+
+.project-card .uk-card .img-overlay {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all 0.3s;
+}
+.project-card .uk-card .img-overlay:hover {
+    background-color: rgba(0, 0, 0, 0.24);;
 }
