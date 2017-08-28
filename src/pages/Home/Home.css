@@ -5,7 +5,10 @@
 
 .hero-container .intro {
     font-size: 24px;
-    /*font-weight: 500;*/
+}
+
+.hero-container .hero-title {
+    font-family: 'Redressed', cursive;
 }
 
 @media (max-width: 639px) {

@@ -3,14 +3,38 @@ body {
   padding: 0;
   font-family: 'Work Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
-}
-
-.title-deco {
-  font-family: 'Redressed', cursive;
+  color: rgba(0, 0, 0, 0.55);
 }
 
 .color-primary {
   color: #FA8D99 !important;
+}
+
+.color-grey-54 {
+  color: rgba(0, 0, 0, 0.55) !important;
+}
+
+.title-deco {
+  display: flex;
+  text-transform: uppercase;
+  font-weight: bolder;
+  align-items: center;
+  color: #FA8D99;
+}
+
+.title-deco:before {
+  display: inline-flex;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: #FA8D99;
+  margin-right: 8px;
+}
+
+.section-subtitle {
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.24);
+  text-transform: uppercase;
 }
 
 .gradient-text {
