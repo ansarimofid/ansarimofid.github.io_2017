@@ -9,7 +9,7 @@ import './Home.css'
 const Home = ()=>(
   <div className="home">
       <div className="hero-wrapper uk-text-center">
-          <div className="uk-text-left hero-container uk-container">
+          <div className="hero-container uk-container">
               <div className="title-deco hero-title color-primary gradient-text">
                   Hello World
               </div>

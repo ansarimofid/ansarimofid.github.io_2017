@@ -11,6 +11,7 @@
 @media (max-width: 639px) {
     .hero-container {
         padding: 35px 20px;
+        text-align: center;
     }
 
     .hero-container .hero-title {
@@ -23,6 +24,7 @@
 @media (min-width: 640px) {
     .hero-container {
         padding: 80px 20px;
+        text-align: left;
     }
 
     .hero-container .hero-title {

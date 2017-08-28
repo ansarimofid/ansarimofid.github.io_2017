@@ -19,7 +19,7 @@ class ProjectCard extends Component {
             <div className="tags">
               {this.props.cardData.tags.map((tag)=>{return <span>{tag}</span>})}
             </div>
-            <div className="uk-margin-small-top"><a href={this.props.cardData.link} className="uk-button uk-button-line">View Project</a></div>
+            <div className="uk-margin-small-top"><a href={this.props.cardData.link} className="uk-button uk-button-line" target="blank">View Project</a></div>
           </div>
         </div>
       </div>

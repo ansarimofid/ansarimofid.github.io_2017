@@ -1,0 +1,16 @@
+footer .uk-navbar-nav li > a{
+    width: 48px;
+    height: 48px;
+    background-color: #FA8D99;
+    /*color: white;*/
+    border-radius: 50%;
+    color: whitesmoke;
+}
+
+footer .uk-navbar-nav li:not(:last-child) {
+    margin-right: 16px;
+}
+
+footer .uk-navbar-nav>li:hover>a,footer .uk-navbar-nav>li>a:focus {
+    color: white;
+}

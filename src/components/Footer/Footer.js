@@ -3,22 +3,19 @@
  */
 import React from 'react'
 
-// import './Header.css'
+import './Footer.css'
 
-const Header = () => (
-  <div className="uk-container">
+const Footer = () => (
+  <div className="uk-container uk-margin-medium-top uk-margin-medium-bottom">
     <footer className="uk-text-center">
       <ul className="uk-navbar-nav uk-flex-inline">
-        <li><a href="" className="uk-icon-button uk-margin-small-right" is uk-icon="icon: behance"></a></li>
-        <li><a href="" className="uk-icon-button uk-margin-small-right" is uk-icon="icon:  dribbble"></a></li>
-        <li><a href="" className="uk-icon-button uk-margin-small-right" is uk-icon="icon: twitter"></a></li>
-        <li><a href="" className="uk-icon-button " is uk-icon="icon: facebook"></a></li>
+        <li><a href="https://www.behance.net/ansarimofid" className="uk-icon-button" is uk-icon="icon: behance" target="blank"></a></li>
+        <li><a href="https://dribbble.com/ansarimofid" className="uk-icon-link" is uk-icon="icon:  dribbble" target="blank"></a></li>
+        <li><a href="https://twitter.com/ansarimofid_" className="uk-icon-link" is uk-icon="icon: twitter" target="blank"></a></li>
+        <li><a href="https://www.facebook.com/ansarimofid" className="uk-icon-link" is uk-icon="icon: facebook" target="blank"></a></li>
       </ul>
     </footer>
   </div>
 );
 
-export default Header
-/**
- * Created by ansarimofid on 24/08/17.
- */
+export default Footer

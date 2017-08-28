@@ -4,6 +4,7 @@
 
 .project-card .tags {
     text-transform: uppercase;
+    font-size: 14px;
 }
 
 .project-card .tags span:not(:last-child):after {

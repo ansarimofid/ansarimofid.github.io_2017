@@ -3,8 +3,9 @@
  */
 import React, { Component } from 'react';
 import ProjectCard from './ProjectCard'
+import ProjectData from '../../data/ProjectData'
 
-const ProjectDataArr = [{title:'Minimal Agency Landing Page',tags:['Branding', 'Website', 'Desiging'], thumb:'img/project_1.png', link:'https://www.behance.net/gallery/51678875/Minimal-Digital-Agency-Landing-Page'}];
+const ProjectDataArr = ProjectData;
 
 class ProjectList extends Component {
 
