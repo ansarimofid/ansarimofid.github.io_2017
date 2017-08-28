@@ -19,7 +19,7 @@ const Resume = () => (
             exploring, learning and creating as much as I can to evolve as a better designer.</p>
         </section>
 
-        <section className="about uk-margin-large-top">
+        <section className="skills uk-margin-large-top">
           <h4 className="title-deco">Skills</h4>
           <div is uk-grid>
             <div className="uk-width-1-2@m">
@@ -47,7 +47,45 @@ const Resume = () => (
                 <div className="other-skill">NodeJs</div>
                 <div className="other-skill">ReactJ</div>
                 <div className="other-skill">Wordpress</div>
+              </div>
+            </div>
+          </div>
+        </section>
 
+        <section className="edu uk-margin-large-top">
+          <h4 className="title-deco">Education</h4>
+          <div className="edu-list">
+
+            <div className="edu-item uk-flex">
+              <div className="year uk-margin-small-right"><span>2018</span></div>
+              <div className="edu-info">
+                <div className="degree text-medium">Bachelor of Technology (B.Tech), Information Technology</div>
+                <div className="inst-name text-size-14 color-grey-38">INDIAN INSTITUTE OF INFORMATION TECHNOLOGY, VADODARA</div>
+                <div className="grade text-size-14">
+                  <span className="text-medium">CGPA:</span> 7.91/10
+                </div>
+              </div>
+            </div>
+
+            <div className="edu-item uk-flex">
+              <div className="year uk-margin-small-right"><span>2014</span></div>
+              <div className="edu-info">
+                <div className="degree text-medium">XII (Senior Secondary), Science</div>
+                <div className="inst-name text-size-14 color-grey-38">CBSE Board (RLB Memorial Senior Secondary School, Lucknow)</div>
+                <div className="grade text-size-14">
+                  <span className="text-medium">Percentage :</span> 94.00%
+                </div>
+              </div>
+            </div>
+
+            <div className="edu-item uk-flex">
+              <div className="year uk-margin-small-right"><span>2012</span></div>
+              <div className="edu-info">
+                <div className="degree text-medium">X (Secondary)</div>
+                <div className="inst-name text-size-14 color-grey-38">CBSE Board (Christ Jyoti Senior Secondary School)</div>
+                <div className="grade text-size-14">
+                  <span className="text-medium">CGPA:</span> 10.00/10.00
+                </div>
               </div>
             </div>
           </div>

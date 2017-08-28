@@ -1,3 +1,8 @@
+
+.resume .title-deco {
+    margin-bottom: 24px;
+}
+
 .core-skills-list .core-skill {
     width: 84px;
     height: 84px;
@@ -26,4 +31,25 @@
     padding-right: 10px;
     text-transform: uppercase;
     font-size: 14px;
+}
+
+.edu-item:not(:first-child) {
+    margin-top: 16px;
+}
+
+.edu-item .year > span {
+    background-color: #FA8D99;
+    color: white;
+    padding: 0 5px;
+    border-radius: 2px;
+}
+
+.edu-item .year:after {
+    content: "";
+    width: 6px;
+    display: inline-flex;
+    height: 9px;
+    background-color: #FA8D99;
+    transform: rotate(45deg);
+    margin-left: -4px;
 }
