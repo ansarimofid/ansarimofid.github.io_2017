@@ -1,0 +1,61 @@
+.contacts .title-deco {
+    margin-bottom: 24px;
+}
+
+.mail-phone {
+    font-size: 20px;
+}
+
+.social-item {
+    display: flex;
+    align-items: center;
+}
+
+.social-item a {
+    color: rgba(0, 0, 0, 0.55);
+    transition: all 0.3s;
+}
+.social-item a:hover {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.social-item .icon {
+    height: 40px;
+    width: 40px;
+    background-color: #FA8D99;
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    padding: 4px;
+}
+
+.social-list .row-2 {
+    margin-top: 16px !important;
+}
+
+.contact-form .uk-input,.contact-form .uk-select, .contact-form .uk-textarea {
+    background-color: whitesmoke;
+    padding: 0 16px;
+}
+
+.contact-form .uk-input {
+    height: 48px;
+}
+
+.contact-form .uk-textarea, .contact-form .uk-input {
+    border-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.contact-form .uk-input:focus, .contact-form .uk-textarea:focus {
+    border: 1px solid whitesmoke;
+    background-color: white !important;
+}
+
+.contact-form .submit-btn {
+    background-color: #FA8D99;
+    color: white;
+    border-radius: 4px;
+}
