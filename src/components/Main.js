@@ -3,14 +3,14 @@
  */
 
 import React from 'react'
-import { Switch, Route } from 'react-router-dom'
+import {Switch, Route} from 'react-router-dom'
 import Home from '../pages/Home/Home'
 import Resume from '../pages/Resume/Resume'
 import Contacts from '../pages/Contacts/Contacts'
 import Collections from '../pages/Collections/Collections'
 import ThankYou from '../pages/ThankYou/ThankYou'
 
-const Main  = () => (
+const Main = () => (
   <main>
     <Switch>
       <Route exact path='/' component={Home}/>

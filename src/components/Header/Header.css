@@ -2,6 +2,6 @@ Header {
     background-color: white;
 }
 
-.uk-navbar-nav>li>a.active,.uk-navbar-nav>li:hover>a.active {
+.uk-navbar-nav > li > a.active, .uk-navbar-nav > li:hover > a.active {
     color: #FA8D99 !important;
 }

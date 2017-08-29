@@ -1,15 +1,15 @@
-footer .uk-navbar-nav li > a{
+footer .uk-navbar-nav li > a {
     width: 48px;
     height: 48px;
     background-color: #FA8D99;
     /*color: white;*/
     border-radius: 50%;
     color: whitesmoke;
-    border:1px solid #FA8D99;
+    border: 1px solid #FA8D99;
     transition: all 0.3s;
 }
 
-footer .uk-navbar-nav li:hover > a, footer .uk-navbar-nav>li>a:focus {
+footer .uk-navbar-nav li:hover > a, footer .uk-navbar-nav > li > a:focus {
     background-color: white;
     color: #FA8D99;
     border-color: #FA8D99;
@@ -19,6 +19,6 @@ footer .uk-navbar-nav li:not(:last-child) {
     margin-right: 16px;
 }
 
-footer .uk-navbar-nav>li:hover>a,footer .uk-navbar-nav>li>a:focus {
+footer .uk-navbar-nav > li:hover > a, footer .uk-navbar-nav > li > a:focus {
     /*color: white;*/
 }

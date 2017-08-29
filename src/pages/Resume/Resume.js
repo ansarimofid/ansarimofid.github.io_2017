@@ -15,7 +15,11 @@ const Resume = () => (
         {/*About*/}
         <section className="about uk-margin-large-top">
           <h4 className="title-deco">About</h4>
-          <p>Hi, I’m <span className="color-primary">Mofid Ansari</span>, a self taught <span className="color-primary">UI Designer</span>  final year Undergrad student from IIIT Vadodara. I started with developing websites and eventually the designing component caught my Imagination which encouraged me to explore it more seriously from a professional perspective. Since last 2 years, I’ve been exploring, learning and creating as much as I can to evolve as a better designer.</p>
+          <p>Hi, I’m <span className="color-primary">Mofid Ansari</span>, a self taught <span className="color-primary">UI Designer</span>
+            final year Undergrad student from IIIT Vadodara. I started with developing websites and eventually the
+            designing component caught my Imagination which encouraged me to explore it more seriously from a
+            professional perspective. Since last 2 years, I’ve been exploring, learning and creating as much as I can to
+            evolve as a better designer.</p>
         </section>
 
         {/*Skills*/}
@@ -61,7 +65,9 @@ const Resume = () => (
               <div className="year uk-margin-small-right"><span>2018</span></div>
               <div className="edu-info">
                 <div className="degree text-medium">Bachelor of Technology (B.Tech), Information Technology</div>
-                <div className="inst-name text-size-14 color-grey-38">INDIAN INSTITUTE OF INFORMATION TECHNOLOGY, VADODARA</div>
+                <div className="inst-name text-size-14 color-grey-38">INDIAN INSTITUTE OF INFORMATION TECHNOLOGY,
+                  VADODARA
+                </div>
                 <div className="grade text-size-14">
                   <span className="text-medium">CGPA:</span> 7.91/10
                 </div>
@@ -72,7 +78,9 @@ const Resume = () => (
               <div className="year uk-margin-small-right"><span>2014</span></div>
               <div className="edu-info">
                 <div className="degree text-medium">XII (Senior Secondary), Science</div>
-                <div className="inst-name text-size-14 color-grey-38">CBSE Board (RLB Memorial Senior Secondary School, Lucknow)</div>
+                <div className="inst-name text-size-14 color-grey-38">CBSE Board (RLB Memorial Senior Secondary School,
+                  Lucknow)
+                </div>
                 <div className="grade text-size-14">
                   <span className="text-medium">Percentage :</span> 94.00%
                 </div>
@@ -83,7 +91,9 @@ const Resume = () => (
               <div className="year uk-margin-small-right"><span>2012</span></div>
               <div className="edu-info">
                 <div className="degree text-medium">X (Secondary)</div>
-                <div className="inst-name text-size-14 color-grey-38">CBSE Board (Christ Jyoti Senior Secondary School)</div>
+                <div className="inst-name text-size-14 color-grey-38">CBSE Board (Christ Jyoti Senior Secondary
+                  School)
+                </div>
                 <div className="grade text-size-14">
                   <span className="text-medium">CGPA:</span> 10.00/10.00
                 </div>

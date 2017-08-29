@@ -31,7 +31,7 @@
     color: black;
 }
 
-.project-card .uk-card >a {
+.project-card .uk-card > a {
     display: block;
     position: relative;
 }
@@ -43,6 +43,7 @@
     position: absolute;
     transition: all 0.3s;
 }
+
 .project-card .uk-card .img-overlay:hover {
     background-color: rgba(0, 0, 0, 0.24);;
 }
@@ -51,7 +52,7 @@
     background-color: #FA8D99;
     border-radius: 2px;
     color: white;
-    border:2px solid #FA8D99;
+    border: 2px solid #FA8D99;
     transition: all 0.3s;
 }
 

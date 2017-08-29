@@ -15,6 +15,7 @@
     color: rgba(0, 0, 0, 0.55);
     transition: all 0.3s;
 }
+
 .social-item a:hover {
     color: rgba(0, 0, 0, 0.87);
 }
@@ -35,7 +36,7 @@
     margin-top: 16px !important;
 }
 
-.contact-form .uk-input,.contact-form .uk-select, .contact-form .uk-textarea {
+.contact-form .uk-input, .contact-form .uk-select, .contact-form .uk-textarea {
     background-color: whitesmoke;
     padding: 0 16px;
 }
@@ -69,7 +70,7 @@
         margin-top: 16px;
     }
 
-    .mail-phone >div >span {
+    .mail-phone > div > span {
         display: block;
     }
 }

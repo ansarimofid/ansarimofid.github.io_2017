@@ -2,7 +2,7 @@
  * Created by ansarimofid on 29/08/17.
  */
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 
 // import './resume.css'
 

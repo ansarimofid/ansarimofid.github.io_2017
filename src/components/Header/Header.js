@@ -2,7 +2,7 @@
  * Created by ansarimofid on 24/08/17.
  */
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 
 import './Header.css'
 
