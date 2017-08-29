@@ -14,7 +14,7 @@ const Home = ()=>(
                   Hello World!
               </div>
               <div className="intro uk-text-bold uk-margin-small-left">I'm <span className="color-primary">Mofid Ansari</span></div>
-              <div className="info uk-margin-small-top uk-margin-small-left">I’m <span className="color-primary uk-text-bold">UI Designer</span> and currently 4th year student at IIIT Vadodara</div>
+              <div className="info uk-margin-small-top uk-margin-small-left">I’m a <span className="color-primary uk-text-bold">UI Designer</span> and currently 4th year student at IIIT Vadodara</div>
           </div>
       </div>
       <div className="project-list">

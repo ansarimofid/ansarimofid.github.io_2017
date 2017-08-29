@@ -17,7 +17,7 @@ class ProjectList extends Component {
     let cardArray = [];
     // Get array of random gradients cards
     for (let i=0;i<ProjectDataArr.length;i++) {
-      cardArray.push(<ProjectCard cardData={ProjectDataArr[i]}/>);
+      cardArray.push(<ProjectCard key={i} cardData={ProjectDataArr[i]}/>);
     }
 
     return cardArray;

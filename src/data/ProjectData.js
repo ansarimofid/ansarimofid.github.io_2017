@@ -1,7 +1,7 @@
 /**
  * Created by ansarimofid on 28/08/17.
  */
-var ProjectData = [];
+let ProjectData = [];
 export default ProjectData = [
   {
     title: 'Minimal Agency Landing Page',
