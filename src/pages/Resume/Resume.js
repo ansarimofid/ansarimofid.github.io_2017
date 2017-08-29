@@ -31,7 +31,7 @@ const Resume = () => (
                 <div className="core-skill circle-text-container">Photoshop</div>
                 <div className="core-skill circle-text-container">Sketch</div>
                 <div className="core-skill circle-text-container">Material Design</div>
-                <div className="core-skill circle-text-container">Html & CSS</div>
+                <div className="core-skill circle-text-container">HTML & CSS</div>
               </div>
             </div>
             <div className="uk-width-1-2@m">
@@ -47,7 +47,7 @@ const Resume = () => (
                 <div className="other-skill">jQuery</div>
                 <div className="other-skill">Ajax</div>
                 <div className="other-skill">NodeJs</div>
-                <div className="other-skill">ReactJ</div>
+                <div className="other-skill">ReactJS</div>
                 <div className="other-skill">Wordpress</div>
               </div>
             </div>
