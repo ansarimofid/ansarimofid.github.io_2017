@@ -15,7 +15,7 @@ const Header = () => (
             <li><NavLink exact to='/' activeClassName="active">Home</NavLink></li>
             <li><NavLink exact to='/resume' activeClassName="active">Resume</NavLink></li>
             <li><NavLink to='/contacts' activeClassName="active">Contacts</NavLink></li>
-            <li><NavLink to='/collections' activeClassName="active">Collections</NavLink></li>
+            {/*<li><NavLink to='/collections' activeClassName="active">Collections</NavLink></li>*/}
           </ul>
         </div>
       </nav>

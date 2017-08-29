@@ -5,6 +5,13 @@ import React from 'react'
 
 import './Contacts.css'
 
+function getThankUrl(url) {
+  let urlArr = url.split("/");
+  urlArr = urlArr.filter((data)=>{return data!=undefined && data!=""});
+  console.log(urlArr);
+  return urlArr[0]+"//"+urlArr[1]+"/thanks";
+}
+
 const Contacts = ()=>(
   <div className="uk-container contacts uk-text-left uk-margin-large-top uk-margin-large-bottom">
       <div is uk-grid>
@@ -60,25 +67,27 @@ const Contacts = ()=>(
               <section className="contact-form uk-margin-large-top">
                   <h4 className="title-deco">Write to me</h4>
                   <div className="form-container">
-                      <form>
+                      <form method="POST" action="http://formspree.io/ansarimofid@gmail.com">
                           <fieldset className="uk-fieldset">
                               <div className="uk-margin">
-                                  <input className="uk-input text-size-14" type="text" placeholder="YOUR NAME"/>
+                                  <input className="uk-input text-size-14" name="name" type="text" placeholder="YOUR NAME"/>
                               </div>
 
                               <div className="uk-margin">
-                                  <input className="uk-input text-size-14" type="email" placeholder="YOUR EMAIL"/>
+                                  <input className="uk-input text-size-14" name="email" type="email" placeholder="YOUR EMAIL"/>
                               </div>
 
 
                               <div className="uk-margin">
-                                  <textarea className="uk-textarea text-size-14" rows="5" placeholder="YOUR QUERY"></textarea>
+                                  <textarea className="uk-textarea text-size-14" name="query" rows="5" placeholder="YOUR QUERY"></textarea>
                               </div>
+                              <input type="hidden" name="_subject" value="Query From ansarimofid.in!" />
+                              <input type="hidden" name="_format" value="plain" />
 
+                              <input type="hidden" name="_next" value={getThankUrl(window.location.href)} />
                               <div className="uk-margin">
                                   <input type="submit" className="submit-btn uk-button" value="SEND"/>
                               </div>
-
                           </fieldset>
                       </form>
                   </div>

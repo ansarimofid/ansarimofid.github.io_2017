@@ -8,6 +8,7 @@ import Home from '../pages/Home/Home'
 import Resume from '../pages/Resume/Resume'
 import Contacts from '../pages/Contacts/Contacts'
 import Collections from '../pages/Collections/Collections'
+import ThankYou from '../pages/ThankYou/ThankYou'
 
 const Main  = () => (
   <main>
@@ -16,6 +17,7 @@ const Main  = () => (
       <Route path='/resume' component={Resume}/>
       <Route path='/contacts' component={Contacts}/>
       <Route path='/collections' component={Collections}/>
+      <Route path='/thanks' component={ThankYou}/>
     </Switch>
   </main>
 );
