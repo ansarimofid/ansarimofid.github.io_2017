@@ -46,3 +46,16 @@
 .project-card .uk-card .img-overlay:hover {
     background-color: rgba(0, 0, 0, 0.24);;
 }
+
+.projects .more-project {
+    background-color: #FA8D99;
+    border-radius: 2px;
+    color: white;
+    border:2px solid #FA8D99;
+    transition: all 0.3s;
+}
+
+.projects .more-project:hover {
+    background-color: white;
+    color: #FA8D99;
+}

@@ -26,10 +26,14 @@ class ProjectList extends Component {
   render() {
 
     return(
-      <div className="uk-container uk-text-center">
+      <div className="uk-container uk-text-center projects">
         <div className="uk-grid">
           {this.getProjectCards()}
         </div>
+        <a href="https://www.behance.net/ansarimofid" target="blank" className="more-project uk-margin-small-top uk-button uk-button-line">
+          View more projects
+        </a>
+        <div className="uk-padding-small"></div>
       </div>
     )
   }
