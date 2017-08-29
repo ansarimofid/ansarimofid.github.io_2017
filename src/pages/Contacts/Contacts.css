@@ -59,3 +59,17 @@
     color: white;
     border-radius: 4px;
 }
+
+@media (max-width: 450px) {
+    .row-1, .row-2 {
+        flex-direction: column;
+    }
+
+    .row-1 .social-item:last-child, .row-2 .social-item:last-child {
+        margin-top: 16px;
+    }
+
+    .mail-phone >div >span {
+        display: block;
+    }
+}

@@ -108,7 +108,7 @@ const Resume = () => (
           </div>
         </section>
 
-        {/*Experience*/}
+        {/*Hoby*/}
         <section className="edu uk-margin-large-top">
           <h4 className="title-deco">Interest & Hobbies</h4>
           <div className="hobby-list uk-flex uk-flex-wrap">
@@ -117,8 +117,8 @@ const Resume = () => (
             <div className="hobby-item circle-text-container">Books</div>
             <div className="hobby-item circle-text-container">Anime</div>
             <div className="hobby-item circle-text-container">Travel</div>
-
           </div>
+          <div className="uk-padding-small"></div>
         </section>
       </div>
     </div>

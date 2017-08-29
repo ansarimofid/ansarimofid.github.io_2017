@@ -8,7 +8,6 @@ import './Contacts.css'
 function getThankUrl(url) {
   let urlArr = url.split("/");
   urlArr = urlArr.filter((data)=>{return data!=undefined && data!=""});
-  console.log(urlArr);
   return urlArr[0]+"//"+urlArr[1]+"/thanks";
 }
 
