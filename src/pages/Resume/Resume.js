@@ -15,9 +15,7 @@ const Resume = () => (
         {/*About*/}
         <section className="about uk-margin-large-top">
           <h4 className="title-deco">About</h4>
-          <p>Hi, I’m <span className="color-primary">Mofid Ansari</span>. I’m self-taught <span className="color-primary">UI Designer</span> and student from IIIT Vadodara. While creating websites I
-            really enjoyed the designing part so I started taking it more seriously. From the last 2 years, I’ve been
-            exploring, learning and creating as much as I can to evolve as a better designer.</p>
+          <p>Hi, I’m <span className="color-primary">Mofid Ansari</span>, a self taught <span className="color-primary">UI Designer</span>  final year Undergrad student from IIIT Vadodara. I started with developing websites and eventually the designing component caught my Imagination which encouraged me to explore it more seriously from a professional perspective. Since last 2 years, I’ve been exploring, learning and creating as much as I can to evolve as a better designer.</p>
         </section>
 
         {/*Skills*/}
